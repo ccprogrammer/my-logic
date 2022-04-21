@@ -5,7 +5,7 @@
 
  ## # shared_preferences
  
- put this first
+ make class helper or whatever you call it for all the function and put this first
  
  `final Future<SharedPreferences> _prefs = SharedPreferences.getInstance();`
 
