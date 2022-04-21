@@ -91,9 +91,18 @@ but in the end just use saveData again because the key will be overwrite by it
 • month day(number) / April 21
  String dateTime = DateFormat.MMMMd().format(DateTime.now());
  
-• hour / 9:41 AM
+• hour / 9:41
+ String hourTime = DateFormat.Hm().format(DateTime.now());
+ 
+• hour am/pm / 9:41 AM
  String hourTime = DateFormat.jm().format(DateTime.now());
-   
+ 
+• day / Thursday
+ String dayTime = DateFormat.EEEE().format(DateTime.now());
+
+ • month / April
+ String monthTime = DateFormat.MMMM().format(DateTime.now());
+ 
 • year / 2022
  String yearTime = DateFormat.y().format(DateTime.now());
  
