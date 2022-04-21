@@ -50,6 +50,25 @@ Future loadData({singleData, listData}) async {
 ```
  
 </details>
+ 
+ ### 	• Delete Data
+
+<details>
+ <summary> View Code </summary>
+ 
+```
+<!-- remove specific key  -->
+ prefs.remove('save_name / key');
+    
+<!-- remove all key  -->
+ prefs.clear();
+ 
+<!-- but in the end just use saveData again because the key will be overwrite by it  -->
+ 
+```
+ 
+</details>
+
 
 <br />
 
