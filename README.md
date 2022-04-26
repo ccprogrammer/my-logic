@@ -73,13 +73,10 @@ but in the end just use saveData again because the key will be overwrite by it
 <br />
 
 
- <br />
-
  ## # Date Time 
  
- more DateTime skeleton https://api.flutter.dev/flutter/intl/DateFormat-class.html
-
 ### 	• [Intl package](https://pub.dev/packages/intl)
+more DateTime skeleton https://api.flutter.dev/flutter/intl/DateFormat-class.html
 
 <details>
  <summary> View Code </summary>
@@ -114,6 +111,64 @@ but in the end just use saveData again because the key will be overwrite by it
  
  
 ```
+ </details>
+
+<br />
+
+ ## # List / Mapping
+
+### 	• Adding Map to list
+
+<details>
+ <summary> View Code </summary>
+ 
+```
+var newData = {'value': 'Hello Programmer'}
+List dataList = [];
+ 
+dataList.add(newData);
+```
+ 
+</details>
+ 
+ ### 	• Adding Value to Map in List
+
+<details>
+ <summary> View Code </summary>
+ 
+```
+List dataList = [
+  {
+    'value': 'Hello Programmer',
+  },
+  {
+    'value': 'Hello Hacker',
+  },
+ ];
+ 
+for(var i = 0; i < dataList.length; i++){
+         dataList[i]['level'] = 'Advanced',                                   
+       }
+
+The new will be like dataList = [
+  {
+    'value': 'Hello Programmer',
+    'level': 'Advanced',
+                                   
+  },
+  {
+    'value': 'Hello Hacker',
+    'level': 'Advanced',
+  },
+ ];                                   
+                                   
+                                   
+```
+ 
+</details>
+
+<br />
+
  
 </details>
 
