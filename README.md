@@ -150,7 +150,9 @@ for(var i = 0; i < dataList.length; i++){
          dataList[i]['level'] = 'Advanced',                                   
        }
 
-The new will be like dataList = [
+The new list will be like 
+
+dataList = [
   {
     'value': 'Hello Programmer',
     'level': 'Advanced',
