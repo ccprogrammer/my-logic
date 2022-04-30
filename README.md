@@ -173,6 +173,18 @@ dataList = [
 
  
 </details>
+ 
+ <br />
+
+ ## # Rename App Name & Package
+
+### 	• [Rename App Name](https://pub.dev/packages/rename)
+### 	• [Rename Package Name](https://pub.dev/packages/change_app_package_name)
+
+ 
+</details>
+
+<br />
 
 <br />
 
