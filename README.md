@@ -180,7 +180,7 @@ dataList = [
 
 ### 	• [Rename App Name](https://pub.dev/packages/rename) & [Rename Package Name](https://pub.dev/packages/change_app_package_name)
  
-### 	• [Change App Icon](https://www.youtube.com/watch?v=O9ChjwrZqns) with [flutter_launcher_icons](https://pub.dev/packages/flutter_launcher_icons)
+### 	• [Change App Icon Video](https://www.youtube.com/watch?v=O9ChjwrZqns)
 
 ### • [Generate App Icon Size](https://appicon.co/)
 
